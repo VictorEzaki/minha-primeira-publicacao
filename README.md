@@ -1,2 +1,2 @@
 # Atividade publicar aplicações WEB
-Portfólio pra atividade da unidade publicar aplicações WEB
+Portfólio para atividade da unidade publicar aplicações WEB
