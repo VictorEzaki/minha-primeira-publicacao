@@ -1,0 +1,77 @@
+body, h3{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#container{
+    display: flex;
+    gap: 2rem;
+}
+
+#dados{
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #024873;
+    color: white;
+}
+#dados #perfil-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#dados #perfil-container img{
+    border-radius: 9999rem;
+    width: 80%;
+    border: 5px solid white;
+}
+#dados-pessoais{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.2rem;
+    width: 90%;
+}
+#dados-pessoais a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+#dados-pessoais a img{
+    width: 50px;
+    height: auto;
+}
+#tecnologias{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 90%;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 1rem;
+}
+#about #sobre, #education{
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 3rem;
+}
+#about div{
+    width: 90%;
+}
+#about #education{
+    display: flex;
+    flex-direction: column;
+}
+#about #education span bold{
+    font-weight: bold;
+}
